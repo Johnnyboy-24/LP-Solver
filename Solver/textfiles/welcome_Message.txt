@@ -1,0 +1,12 @@
+ _       ______               ______       _                   
+(_)     (_____ \             / _____)     | |                  
+ _       _____) )   _____   ( (____   ___ | |_   _ _____  ____ 
+| |     |  ____/   (_____)   \____ \ / _ \| | | | | ___ |/ ___)
+| |_____| |                  _____) ) |_| | |\ V /| ____| |    
+|_______)_|                 (______/ \___/ \_)\_/ |_____)_|    
+                                                               
+
+Welcome to the LP-Solver! 
+--------------------------------------------------
+To run the solver simply pass the Path to the optimization-problem (-p).
+If you are new or seek further information refer to "-h" for help.
