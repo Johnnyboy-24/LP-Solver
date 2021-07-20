@@ -66,8 +66,8 @@ namespace Solver.Properties {
         ///      /  &apos;    `&quot;---,.__                                           
         ///     /  &apos;    ,&apos;     ,  &apos;&quot;--,&quot;|   USER GUIDE:                                  
         ///    /  &apos;    ,     ,&apos;     ,&quot;::|   -p : pass the path to the problem.txt  
-        ///   /  &apos;   ,&apos;    ,      ,&quot;::::|   -h : this will                    
-        ///  /  &apos;   ,    ,&apos;     ,&quot;::::::|   -d : set the Number of decimals in the result (defau [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
+        ///   /  &apos;   ,&apos;    ,      ,&quot;::::|   -h : get&apos;s the USER GUIDE                    
+        ///  /  &apos;   ,    ,&apos;     ,&quot;::::::|   -d : set the Number of decimals in the re [Rest der Zeichenfolge wurde abgeschnitten]&quot;; ähnelt.
         /// </summary>
         internal static string help_Message {
             get {

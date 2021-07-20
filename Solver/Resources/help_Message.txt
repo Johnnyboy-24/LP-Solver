@@ -1,0 +1,22 @@
+        /;                                                        
+       / |'-,.                                                    
+      /  '    `"---,.__                                           
+     /  '    ,'     ,  '"--,"|   USER GUIDE:                                  
+    /  '    ,     ,'     ,"::|   -p : pass the path to the problem.txt  
+   /  '   ,'    ,      ,"::::|   -h : get's the USER GUIDE                    
+  /  '   ,    ,'     ,"::::::|   -d : set the Number of decimals in the result (default= 2)                                 
+ /  '  ,'   ,'     ,"::::::::|    "exit" : this will end the programm       
+/  '  ,    ,     ,"::::::::::|    PARAMETERS CAN BE SET INDIVIDUALLY OR TOGETHER!                             
+k-,._    ,'   _."::::::::::::|                                     
+ \.  `"----'"".J:::::::::::::|    HAVE FUN!   
+  \.           .L::::::::::::|                                     
+   \.          .J:::::::::::/                                     
+    \.          .L:::::::::/                                      
+     \.         .|::::::::/                                       
+      \.        .J:::::::/                                        
+       \.        .L:::::/                                         
+        \.       .|::::/                                          
+         \.      .J:::/                                      
+          \.      .L:/                                            
+           \.     .|/            
+            `-,__,-'                                              

@@ -66,7 +66,6 @@ namespace Solver
                                     Console.WriteLine("Number of decimals can only be between 1 and 10");
                                 break;
                             default:
-                                Console.WriteLine("Seems like you need help! Use -p to pass a path or refer to -h for help.");
                                 break;
                         }
                     }
