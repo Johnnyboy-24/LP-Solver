@@ -1,6 +1,0 @@
-// Objective function 
-max: 6*x + 5*y;
-
-// constraints
-1*x + 1*y <= 5;
-3*x + 2*y <= 12;

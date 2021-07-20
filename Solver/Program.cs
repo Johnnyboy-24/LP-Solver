@@ -8,7 +8,7 @@ namespace Solver
     /// <summary>
     /// The Programm holds to classes/modules: A parser and a solver
     /// The parser extracts the objective function & constraints and creates a problem-matrix/- tableu 
-    /// The Solver takes the matrix created by the parser and 
+    /// The Solver takes the matrix created by the parser and solves it according to passed parameters
     /// </summary>
     class Program
     {
@@ -39,7 +39,6 @@ namespace Solver
                 
             }
             
-            //
             void parse_Params(string[] parameters)
             {
                

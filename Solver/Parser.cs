@@ -8,13 +8,10 @@ namespace Solver
 {
     public class Parser
     {
-        public bool maximierung = true;
-        public int MyProperty { get; set; }
-
-
-        public List<string> text;
-
-        public int variables_Count;
+        public bool maximierung { get; set; }
+        public double[,] problem_Tableau { get; set; }
+        public List<string> text { get; set; }
+        public int variables_Count { get; set; }
 
         private string _path; 
         public string path
@@ -35,7 +32,7 @@ namespace Solver
             
         }
         
-        public double[,] problem_Tableau { get; set; }
+        
  
         //Creates the final table by:
         //      -converting numerals from char to double 
@@ -111,7 +108,7 @@ namespace Solver
                 if (string.IsNullOrEmpty(text[i])) { text.RemoveAt(i); }
                 if (text[i].StartsWith("//")) { text.RemoveAt(i); }                
                 if (text[i].StartsWith("min")) { text[i] = text[i].Remove(0, 4); maximierung = false; }
-                if (text[i].StartsWith("max")) { text[i] = text[i].Remove(0, 4);}
+                if (text[i].StartsWith("max")) { text[i] = text[i].Remove(0, 4); maximierung = true; }
                 if (text[i].StartsWith(" +")) { text[i] = text[i].Remove(0, 2); }
                 
 

@@ -1,0 +1,6 @@
+C:\Users\numme\projects\LP-Solver\Executables\Solver.exe
+C:\Users\numme\projects\LP-Solver\Executables\Solver.dll
+C:\Users\numme\projects\LP-Solver\Executables\Solver.deps.json
+C:\Users\numme\projects\LP-Solver\Executables\Solver.runtimeconfig.json
+C:\Users\numme\projects\LP-Solver\Executables\Solver.pdb
+C:\Users\numme\projects\LP-Solver\Executables\ConsoleTables.dll
