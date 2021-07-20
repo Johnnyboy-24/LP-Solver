@@ -16,6 +16,7 @@ namespace Solver
         {
             int decimals = 2;
             Parser parser = new Parser();
+            Simplex simplex;
             string[] parameters;
             bool endprogramm= false;
             Console.ForegroundColor = ConsoleColor.Green;
@@ -30,8 +31,8 @@ namespace Solver
                     Console.WriteLine(Solver.Properties.Resources.return_string);
                     print_Text(parser.text);
                     parser.to_Simplex_Tableau();
-                    Simplex simplex_Solver = new Simplex(parser.problem_Tableau, parser.variables_Count, parser.maximierung, decimals);
-                    simplex_Solver.solve();
+                    simplex = new Simplex(parser.problem_Tableau, parser.variables_Count, parser.maximierung, decimals);
+                    simplex.solve();
                     Console.WriteLine(Solver.Properties.Resources.return_string);
                     Console.WriteLine("Solve another another Problem by passing its path or type 'Exit'!");
                     parser = new Parser();

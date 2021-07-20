@@ -1,7 +1,8 @@
 @startuml
 class Program {
     int decimals
-    Parser parser 
+    Parser parser
+    Simplex simplex 
     string[] parameters 
     bool endprogram
     void parse_Params()
