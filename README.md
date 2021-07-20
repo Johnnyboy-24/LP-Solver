@@ -11,7 +11,7 @@ Following parameters can be used:
 * -d : set the Number of decimals in the result (default= 2)                                 
 * "exit" : this will end the programm
 
-
+![Example.png](https://github.com/Johnnyboy-24/LP-Solver/blob/main/Images/Example.png)
 
 ## Compatability
 The Solver is build on .Net Core 3.1.10. In order to run the program make sure that .Net Core 3.1. or higher is installed on your machine. 
