@@ -1,0 +1,42 @@
+@startuml
+class Program {
+    int decimals
+    Parser parser 
+    string[] parameters 
+    bool endprogram
+    void parse_Params()
+    void print_Text()
+}
+class Parser{
+    + bool maximierung
+    + double[,] problem_Tableau
+    + List<string> text
+    + int variable_Count
+    + string path 
+    - string _path
+    + void read_Textfile_From_Path()
+    + void to_SImplex_Tableu()
+    - double[,] tanspose()
+    - double[,] add_Slack_Variables()
+    - List<string[]> filter_Text()
+    - List<string[]> Swap()
+}
+class Simplex{
+    + double[,] problem_Tableu
+    + int height
+    + int width 
+    + int variables_Count 
+    + bool maximization
+    + int decimals
+    + void solve()
+    - int get_Pivot_Row()
+    - int get_Pivot_Column()
+    - void make_Unit_Vector()
+    - bool is_Optimized()
+    - void serve_Variables()
+}
+Program *-- Parser
+Program *-- Simplex
+ 
+
+@enduml

@@ -6,6 +6,10 @@ Run the application from the console (Powershell/Bash)
 In order to solve a problem its path needs to be passed:
 * -p : pass the path to the problem.txt 
 
+## Syntax 
+The program can read problems defined according to the LP-Solve Syntax. 
+For further information please refer to [LP-Solve guide](http://lpsolve.sourceforge.net/5.5/lp_solve.htm).
+
 Following parameters can be used: 
 * -h : get's the USER GUIDE                   
 * -d : set the Number of decimals in the result (default= 2)                                 

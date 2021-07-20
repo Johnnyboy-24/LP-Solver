@@ -7,12 +7,12 @@ namespace Solver
 {
     class Simplex
     {
-        public double[,] problem_Tableu { get; set; }
-        public int height { get; set; }
-        public int width { get; set; }
-        public int variables_Count { get; set; }
-        public bool maximization { get; set; }
-        public int decimals { get; set; }
+        public double[,] problem_Tableu { get; private set; }
+        public int height { get; private set; }
+        public int width { get; private set; }
+        public int variables_Count { get; private set; }
+        public bool maximization { get; private set; }
+        public int decimals { get; private set; }
 
         public Simplex(double[,] problem_Tableu, int variables_Count, bool maximization, int decimals )
         {

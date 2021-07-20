@@ -4,7 +4,6 @@ C:\Users\numme\projects\LP-Solver\Solver\bin\Debug\netcoreapp3.1\Solver.runtimec
 C:\Users\numme\projects\LP-Solver\Solver\bin\Debug\netcoreapp3.1\Solver.runtimeconfig.dev.json
 C:\Users\numme\projects\LP-Solver\Solver\bin\Debug\netcoreapp3.1\Solver.dll
 C:\Users\numme\projects\LP-Solver\Solver\bin\Debug\netcoreapp3.1\Solver.pdb
-C:\Users\numme\projects\LP-Solver\Solver\obj\Debug\netcoreapp3.1\Solver.csprojAssemblyReference.cache
 C:\Users\numme\projects\LP-Solver\Solver\obj\Debug\netcoreapp3.1\Solver.AssemblyInfoInputs.cache
 C:\Users\numme\projects\LP-Solver\Solver\obj\Debug\netcoreapp3.1\Solver.AssemblyInfo.cs
 C:\Users\numme\projects\LP-Solver\Solver\obj\Debug\netcoreapp3.1\Solver.csproj.CoreCompileInputs.cache

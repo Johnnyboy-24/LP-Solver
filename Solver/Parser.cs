@@ -8,10 +8,10 @@ namespace Solver
 {
     public class Parser
     {
-        public bool maximierung { get; set; }
-        public double[,] problem_Tableau { get; set; }
-        public List<string> text { get; set; }
-        public int variables_Count { get; set; }
+        public bool maximierung { get; private set; }
+        public double[,] problem_Tableau { get; private set; }
+        public List<string> text { get; private set; }
+        public int variables_Count { get; private set; }
 
         private string _path; 
         public string path
@@ -73,7 +73,7 @@ namespace Solver
         }
 
         //Copies variable-coefficients and constraints into a new matrix and adds a slack variable for each constraint
-        public double[,] add_slack_variables(double[,] matrix)
+        private double[,] add_slack_variables(double[,] matrix)
         {
             int height = matrix.GetLength(0);
             int width_OLD = matrix.GetLength(1);
@@ -98,7 +98,7 @@ namespace Solver
             }
             return result;
         }
-        public List<string[]> filter_text()
+        private List<string[]> filter_text()
         {
             List<string[]> result = new List<string[]>();
 
@@ -130,7 +130,7 @@ namespace Solver
             
             return Swap(result, 0, result.Count-1);
         }
-        static List<string[]> Swap(List<string[]> list, int first_Item, int second_Item)
+        private List<string[]> Swap(List<string[]> list, int first_Item, int second_Item)
         {
             string[] helper = list[first_Item];
             list[first_Item] = list[second_Item];
